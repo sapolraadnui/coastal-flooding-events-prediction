@@ -6,23 +6,6 @@ The objective of the challenge is to predict whether a flooding event will occur
 
 ---
 
-## Repository Structure
-
-For Codabench submission, only the following are required:
-
-```
-submissions/
-  model.py
-  final_reduced_model.pkl   (optional if using pretrained weights)
-  requirement.txt
-```
-
-> IMPORTANT  
-> Do NOT zip the entire repository when submitting to Codabench.  
-> Only include the required submission files.
-
----
-
 ### Structure of This Repository
 
 ```
@@ -36,6 +19,7 @@ coastal-flooding-events-prediction/
 ├── final_reduced_model.ipynb
 │
 ├── submissions/
+│   ├── README.md
 │   ├── model.py
 │   ├── final_reduced_model.pkl
 │   └── reduced_model_submission.zip
